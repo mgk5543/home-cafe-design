@@ -20,8 +20,8 @@ img{
   display: flex;
   justify-content: center;
 }
-img:hover{
-  margin: -.5vw;
+#drink:hover img{
+  margin-right: -.5vw;
   opacity: 0.5;
 }
 
@@ -38,12 +38,12 @@ img:hover{
   color: black;
   font-family: 'Zilla Slab', serif;
   font-size: 1.2vw;
-  visibility:hidden;
+  opacity: 0;
   word-wrap: break-word;
 }
 
 #drink:hover .text{
-  visibility:visible;
+  opacity: 1;
 }
 ul + p{
   font-size: 2vw;
