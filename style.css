@@ -22,7 +22,7 @@ img{
 }
 #drink:hover img{
   margin-right: -.5vw;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 #drink{
@@ -32,9 +32,9 @@ img{
 }
 #drink .text{
   position: relative;
-  top: -20vw;
+  top: -21vw;
   left: 0vw;
-  width: 10vw;
+  width: 11vw;
   color: black;
   font-family: 'Zilla Slab', serif;
   font-size: 1.2vw;
@@ -45,6 +45,8 @@ img{
 #drink:hover .text{
   opacity: 1;
 }
-ul + p{
-  font-size: 2vw;
+ul p{
+  font-size: 1.5vw;
+  font-weight: 600;
+  text-align: right;
 }
