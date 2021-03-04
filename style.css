@@ -1,0 +1,50 @@
+body{
+  height: 100vh;
+}
+h1{
+  font-weight: 400;
+  font-size: 5vw;
+  text-align: center;
+  line-height: 1.5;
+  font-family: 'Yeseva One', cursive;
+}
+
+img{
+  height: 25vw;
+  object-fit: cover;
+  width: 15vw;
+  border-radius: 25px;
+  opacity: 1;
+}
+#images{
+  display: flex;
+  justify-content: center;
+}
+img:hover{
+  margin: -.5vw;
+  opacity: 0.5;
+}
+
+#drink{
+  width: 15vw;
+  height: 25vw;
+  margin: 2vw;
+}
+#drink .text{
+  position: relative;
+  top: -20vw;
+  left: 0vw;
+  width: 10vw;
+  color: black;
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.2vw;
+  visibility:hidden;
+  word-wrap: break-word;
+}
+
+#drink:hover .text{
+  visibility:visible;
+}
+ul + p{
+  font-size: 2vw;
+}
